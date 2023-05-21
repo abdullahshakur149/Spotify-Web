@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Heaven for music lovers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"><img src="/imgs/logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songlist">
+            <h1>Best of DJ Remix</h1>
+            <div class="songitemcontainer">
+                <div class="songItem">
+                    <img src="/covers/1.jpg" alt="1">
+                    <span class="songName">Summer Sadness</span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="1" class="far songItemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+
+            <div>
+                <div class="songItem">
+                    <img src="/covers/2.jpg" alt="1">
+                    <span class="songName">Bandish - Talha Yunus</span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="2" class="far songItemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+
+            <div>
+                <div class="songItem">
+                    <img src="/covers/3.jpg" alt="1">
+                    <span class="songName">DEAF KEF - Invincible</span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="3" class="far songItemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+
+            <div>
+                <div class="songItem">
+                    <img src="/covers/4.jpg" alt="1">
+                    <span class="songName">Different heaven & EH!de</span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="4" class="far songItemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+
+            <div>
+                <div class="songItem">
+                    <img src="/covers/5.jpg" alt="1">
+                    <span class="songName">Janji Heroes - Tonight Feat</span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="5" class="far songItemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+
+            <div>
+                <div class="songItem">
+                    <img src="/covers/6.jpg" alt="1">
+                    <span class="songName">Arzuu - Hassan Raheem</span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="6" class="far songItemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+
+            <div>
+                <div class="songItem">
+                    <img src="/covers/7.jpg" alt="1">
+                    <span class="songName">Charlie Puth - light Switch</span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="7" class="far songItemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+
+            <div>
+                <div class="songItem">
+                    <img src="/covers/8.jpg" alt="1">
+                    <span class="songName">Toxic - Ap Dhillon</span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="8" class="far songItemPlay  fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+
+            <div>
+                <div class="songItem">
+                    <img src="/covers/9.jpg" alt="1">
+                    <span class="songName">Coolio - Gangste Paradise</span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="9" class="far songItemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+
+            <div>
+                <div class="songItem">
+                    <img src="/covers/10.jpg" alt="1">
+                    <span class="songName">Salam-E-Ishq</span>
+                    <span class="songlistplay"><span class="timestamp">02:25 <i id="10" class="far songItemPlay fa-circle-play"></i>
+                        </span></span>
+                </div>
+            </div>
+
+            
+
+        </div>
+        <div class="songbanner">
+
+            
+        </div>
+
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- icons -->
+            <i id="previous" class="fa-solid fa-2x fa-step-backward "></i>
+            <i class="fa-solid fa-2x fa-circle-play" id="masterPlay"></i>
+            <i id="next" class="fa-solid fa-2x fa-step-forward"></i>
+        </div>
+        <div class="songinfo">
+            <img src="/imgs/playing.gif" width="42px" alt="" id="gif" srcset=""> <span class="masterSongName">Warriyo Mortals - (Feat Laura Breham)</span> 
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
